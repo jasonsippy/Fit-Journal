@@ -7,6 +7,6 @@ Jason Sippy & Chris King
 First paragrah explains what the application does.
 
 Second paragraph explains the purpose it serves.
-second
+Second.
 ## Test Schema
 Hello
