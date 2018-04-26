@@ -1,4 +1,4 @@
-# Fit Journal
+# FIT JOURNAL
 
 ## Team Members
 Jason Sippy & Jaylin Phipps
