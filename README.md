@@ -1,4 +1,4 @@
 # Test
 
-## Team Members
+### Team Members
 Jason Sippy & Chris King
