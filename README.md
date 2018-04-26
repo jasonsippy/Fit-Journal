@@ -6,8 +6,7 @@ Jason Sippy & Chris King
 ## Test Description
 First paragrah explains what the application does.
 
-Second paragraph explains the purpose it serves.  
-Second.
+Second paragraph explains the purpose it serves.  Second.
 
 ## Test Schema
 Hello
