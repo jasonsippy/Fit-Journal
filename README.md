@@ -1,4 +1,4 @@
-# Test
+# Fit Journal
 
 ## Team Members
 Jason Sippy & Jaylin Phipps
