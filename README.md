@@ -1,12 +1,12 @@
 # Test
 
 ## Team Members
-Jason Sippy & Chris King
+Jason Sippy & Jaylin Phipps
 
 ## Test Description
 First paragrah explains what the application does.
 
-Second paragraph explains the purpose it serves.  Second.
+Second paragraph explains the purpose it serves.
 
 ## Test Schema
 Hello
