@@ -1,11 +1,12 @@
 # Test
----
 
 ## Team Members
 Jason Sippy & Chris King
 
 ## Test Description
-Hello
+First paragrah explains what the application does.
+
+Second paragraph explains the purpose it serves.
 
 ## Test Schema
 Hello
