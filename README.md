@@ -1,4 +1,4 @@
-# FIT JOURNAL ![fjlogo](https://user-images.githubusercontent.com/38664109/39373841-75bc7304-4a0e-11e8-9495-72894185c224.png | width=100)
+# FIT JOURNAL <img src="https://user-images.githubusercontent.com/38664109/39373841-75bc7304-4a0e-11e8-9495-72894185c224.png" width="48" height="48">
 
 ## Team Members
 Jason Sippy & Jaylin Phipps
