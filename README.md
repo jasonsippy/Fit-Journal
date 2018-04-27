@@ -19,6 +19,6 @@ Hello
 CREATE -  
 READ -  
 UPDATE -  
-Delete -
+DELETE -
 
 ## Video Demonstration
