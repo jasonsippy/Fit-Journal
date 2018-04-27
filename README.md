@@ -16,9 +16,9 @@ Hello
 ## Entity Relationship Diagram
 
 ## C.R.U.D. Locations
-CREATE -
-READ -
-UPDATE -
+CREATE -  
+READ -  
+UPDATE -  
 Delete -
 
 ## Video Demonstration
