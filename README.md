@@ -1,5 +1,4 @@
-![fjlogo3](https://user-images.githubusercontent.com/38664109/39377853-4077e0c6-4a1c-11e8-9dce-4b6201c4e1ba.png)
-
+![fjlogo3](https://user-images.githubusercontent.com/38664109/39378062-e0bc1354-4a1c-11e8-8cf1-569f8ccc5613.png)
 
 ## Team Members
 Jason Sippy & Jaylin Phipps
