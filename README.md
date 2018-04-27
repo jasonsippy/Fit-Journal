@@ -5,9 +5,9 @@
 Jason Sippy & Jaylin Phipps
 
 ## Test Description
-First paragrah explains what the application does.
+Fit Journal is a database application that allows the user to log their work outs to track their progress. With all 
 
-Second paragraph explains the purpose it serves.
+Fit Journal serves as a commitment especially when setting a goal. While you monitor your progress, you can make the necessary adjustments to keep you on the right path to fulfilling your goal. Not only does progress tracking benefit you as you move toward your goal, but also when you look back at it; you can see how far you've come.
 
 ## Test Schema
 Hello
