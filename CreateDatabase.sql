@@ -1,6 +1,10 @@
 #FIT JOURNAL
 
-|Test 1| Test 2|
-|:----:|:-----:|
-|a|9|
-|b|9|
+DROP TABLE if EXISTS 'Persons';
+CREATE TABLE 'Persons'(
+    'Name' varchar (50) NOT NULL,
+    'Age' int(3) NOT NULL,
+    'Bodyweight' int(3) NOT NULL,
+    'Date' date(YYYY-MM-DD) NOT NULL,
+    'Body Group' varchar(50) NOT NULL
+);
