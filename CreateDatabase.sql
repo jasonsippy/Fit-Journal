@@ -1,6 +1,5 @@
 #FIT JOURNAL
 
-DROP TABLE if EXISTS Persons;
 CREATE TABLE Persons(
     Name varchar (50) NOT NULL,
     Age int NOT NULL,
