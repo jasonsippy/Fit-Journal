@@ -1,4 +1,4 @@
-![fjlogo3](https://user-images.githubusercontent.com/38664109/39378062-e0bc1354-4a1c-11e8-8cf1-569f8ccc5613.png)
+![fitjournal](https://user-images.githubusercontent.com/38664109/39455310-5bef5aec-4ca5-11e8-8c0d-4314d6b06de1.png)
 
 ## Team Members
 Jason Sippy & Jaylin Phipps
