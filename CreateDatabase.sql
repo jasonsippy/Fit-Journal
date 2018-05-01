@@ -2,7 +2,7 @@ CREATE TABLE Persons(
     ID int NOT NULL,
     Name varchar(50) NOT NULL,
     Age int NOT NULL,
-    BodyWeight int NOT NULL,
+    `Weight (lb)` int NOT NULL,
     `Entry Date` date NOT NULL
 );
 
