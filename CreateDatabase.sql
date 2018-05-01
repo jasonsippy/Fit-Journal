@@ -1,5 +1,5 @@
 CREATE TABLE Persons(
-    ID int NOT NULL,
+    ID int AUTO_INCREMENT PRIMARY KEY,
     Name varchar(50) NOT NULL,
     Age int NOT NULL,
     `Weight (lb)` int NOT NULL,
