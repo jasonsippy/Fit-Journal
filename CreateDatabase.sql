@@ -1,20 +1,20 @@
-CREATE TABLE Persons(
-    ID int AUTO_INCREMENT PRIMARY KEY,
-    Name varchar(50) NOT NULL,
-    Age int NOT NULL,
-    `Weight (lb)` int NOT NULL,
-    `Entry Date` date NOT NULL
+CREATE TABLE persons (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name varchar(50) NOT NULL,
+    age int,
+    weight int,
+    entryDate date
 );
 
-CREATE TABLE Exercises(
-    Code char(3) NOT NULL,
-    `Exercise Type` varchar(50) NOT NULL
+CREATE TABLE exercises (
+    code char(3) NOT NULL,
+    exerciseType varchar(50)
 );
 
-CREATE TABLE Logbook(
-    ID int NOT NULL,
-    Code char(3) NOT NULL,
-    `Duration (min)` int NOT NULL,
-    `Effort (%)` int NOT NULL,
-    Location varchar(100) NOT NULL DEFAULT ' '
+CREATE TABLE logbook (
+    id int NOT NULL,
+    code enum('BKE', 'RUN', 'SWM', 'UNCATEGORIZED') NOT NULL,
+    duration int,
+    distance int,
+    notes varchar(250) 
 );
