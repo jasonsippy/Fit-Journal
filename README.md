@@ -11,10 +11,22 @@ Fit Journal serves as a commitment to better yourself. By going through the moti
 After all, who is your biggest competitor if not yourself?
 
 ## Fit Journal Schema
+#### Persons
 |ID|NAME|Age|Weight (lb)|Entry Date|
 |--|----|---|-----------|----------|
 |1 |John|29 |230        |2018-05-04|
 |2 |Jane|27 |129        |2018-05-04|
+#### Exercises
+|Code|Exercise Type|
+|----|-------------|
+|BKE |Bike         |
+|RUN |Run          |
+|SWM |Swim         |
+|UNCATEGORIZED|Uncategorized|
+#### Logbook
+|ID|Code|Duration (min)|Distance (mi)|Effort (%)|Notes|
+|1 |BKE |62            |8            |80        |MKT Trail, Hot|
+|2 |SWM |45            |1            |75        |Mizzou Rec, Tired|
 
 ## Entity Relationship Diagram
 
