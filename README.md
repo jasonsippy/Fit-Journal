@@ -1,7 +1,7 @@
 ![fitjournal](https://user-images.githubusercontent.com/38664109/39455394-c3a494cc-4ca5-11e8-853c-3d716d69ad46.png)
 
 ## Team Members
-Jason Sippy & Jaylin Phipps
+Jason Sippy & Chris King (not in class)
 
 ## Fit Journal Description
 Fit Journal is a database application that allows the user to log their workouts so they can track their progress. The user can CREATE, READ, UPDATE, and DELETE entries to keep an accurate representation of their workouts. As the workouts are logged into the database, they can be compared to previous workouts for future workout plannning.   
@@ -11,7 +11,10 @@ Fit Journal serves as a commitment to better yourself. By going through the moti
 After all, who is your biggest competitor if not yourself?
 
 ## Fit Journal Schema
-Hello
+|ID|NAME|Age|Weight (lb)|Entry Date|
+|--|----|---|-----------|----------|
+|1 |John|29 |230        |2018-05-04|
+|2 |Jane|27 |129        |2018-05-04|
 
 ## Entity Relationship Diagram
 
