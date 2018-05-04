@@ -4,7 +4,7 @@
 Jason Sippy & Chris King (not in class)
 
 ## Fit Journal Description
-Fit Journal is a database application that allows the user to log their workouts so they can track their progress. The user can CREATE, READ, UPDATE, and DELETE entries to keep an accurate representation of their workouts. As the workouts are logged into the database, they can be compared to previous workouts for future workout plannning.   
+Fit Journal is a database application that allows the user to log their workouts so they can track their progress. The user can CREATE, READ, UPDATE, and DELETE entries to keep an accurate representation of their workouts. As the workouts are logged into the database, they can be compared to previous workouts for future workout plannning. Here a person will be able to track their progress among the following exercises: Biking, Running, Swimming and Uncategorized (Uncategorized obviously is anything outside the other three and can be specified in the notes column of the Logbook).   
 
 Fit Journal serves as a commitment to better yourself. By going through the motions without a plan or a place to document your work, a person can run into a plateau because they haven't payed attention to their journey and their progress slows down. However, if you monitor your progress, you can make the necessary adjustments to stay ahead of your pervious self and keep moving forward. Not only does progress tracking benefit you as you move toward your goal, but also when you look back at it; you can see how far you've come.
 
@@ -28,11 +28,11 @@ Creating a database in Boyce-Codd Normal Form (BCNF) deals with eliminates anoma
 |ID|Code|Duration (min)|Distance (mi)|Effort (%)|Notes|
 |--|----|--------------|-------------|----------|-----|
 |1 |BKE |62            |8            |80        |MKT Trail, Hot|
-|2 |SWM |45            |1            |75        |Mizzou Rec, Tired|
+|2 |UNCATEGORIZED |45            |-            |75        |Mizzou Rec, Yoga|
 
 ## Entity Relationship Diagram
-With a relationship between the three tables, a persons ID can be linked to the exercise code and the exercise the code is attached to.
 ![entity relationship diagram](https://user-images.githubusercontent.com/38664109/39652457-3c1c6b04-4fb3-11e8-92c4-3f5935fdd5ee.PNG)
+With a relationship between the three tables, a persons ID can be linked to the exercise code and the exercise the code is attached to.
 
 ## C.R.U.D. Locations
 CREATE -  
