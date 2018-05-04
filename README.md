@@ -31,6 +31,8 @@ Creating a database in Boyce-Codd Normal Form (BCNF) deals with eliminates anoma
 |2 |SWM |45            |1            |75        |Mizzou Rec, Tired|
 
 ## Entity Relationship Diagram
+With a relationship between the three tables, a persons ID can be linked to the exercise code and the exercise the code is attached to.
+![entity relationship diagram](https://user-images.githubusercontent.com/38664109/39652457-3c1c6b04-4fb3-11e8-92c4-3f5935fdd5ee.PNG)
 
 ## C.R.U.D. Locations
 CREATE -  
