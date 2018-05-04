@@ -11,6 +11,7 @@ Fit Journal serves as a commitment to better yourself. By going through the moti
 After all, who is your biggest competitor if not yourself?
 
 ## Fit Journal Schema
+Creating a database in Boyce-Codd Normal Form (BCNF) deals with eliminates anomalies that may be dependent on other columns of a table. By creating multiple tables, updating and deleting can occur without having to affect the other tables/portions of the database.
 #### Persons
 |ID|NAME|Age|Weight (lb)|Entry Date|
 |--|----|---|-----------|----------|
@@ -25,6 +26,7 @@ After all, who is your biggest competitor if not yourself?
 |UNCATEGORIZED|Uncategorized|
 #### Logbook
 |ID|Code|Duration (min)|Distance (mi)|Effort (%)|Notes|
+|--|----|--------------|-------------|----------|-----|
 |1 |BKE |62            |8            |80        |MKT Trail, Hot|
 |2 |SWM |45            |1            |75        |Mizzou Rec, Tired|
 
