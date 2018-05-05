@@ -34,10 +34,22 @@ Creating a database in Boyce-Codd Normal Form (BCNF) deals with eliminates anoma
 ![entity relationship diagram](https://user-images.githubusercontent.com/38664109/39652457-3c1c6b04-4fb3-11e8-92c4-3f5935fdd5ee.PNG)
 With a relationship between the three tables, a persons ID can be linked to the exercise code and the exercise the code is attached to.
 
-## C.R.U.D. Locations
-CREATE -  
-READ -  
-UPDATE -  
-DELETE -
+## C.R.U.D. Locations & Explanations
+**CREATE -**  The three tables were created by sql code in the file **CreateDatabase.sql**. They were then uploaded to infinity free so data  entries could be made from the website that was created (fitjournal.epizy.com/FJ/...). Inserts were made in the **add_persons.php and add_logbook.php specifically line 31** where the sql statement was used.
+**READ -**  Unfortunately the only reading that could be done each individual table where **persons.php, exercises.php, and logbook.php** would display the data that was preloaded and inserted from **the sql statement at line 16.** The plan for reading from multiple tables was to add another view in the **persons url as well as the logbook url** where columns could be selected and viewed together with the sql inner join statement. 
+**UPDATE -** The update function was making the website crash when trying to update or insert so this was taken out. The plan was to click an update button from the corresponding row and update any data points that needed to be updated. It was intended to go into the **add_persons.php and add_logbook.php files at line 31** with the following code:
+$id = $_POST['id'] ? $_POST['id'] : redirect("persons.php");
+$result = mysql_query($sql);
+if(if ($result == $url_id){
+  $sql = "UPDATE persons SET name='$name', age='$age', weight='$weight' WHERE id=$id;"
+  $result = $mysqli->query($sql);
+  ...
+}
+else{
+  $sql = "INSERT INTO logbook (id, code, duration, distance, effort, notes) VALUES ('$id', '$code', '$duration', '$distance', '$effort', '$notes')";
+  $result = $mysqli->query($sql);
+  ...
+ }_ 
+**DELETE -** Delete was created in the **edit_person.php and edit_logbook.php files at line 17**. The purpose of this was to delete any entries that no longer needed to be in the database.
 
 ## Video Demonstration
