@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager</title>
+<link rel="stylesheet" type="text/css" href="taskmanager.css">
+</head>
+<body>
+<h1>Activity Entry</h1>
+<form action="add_logbook.php" method="post">
+  <p>ID<br />
+  <input type="number" name="id"></p>
+  
+  <p>Code<br />
+  <select name="code">
+	  <option value="BKE">BKE</option>
+	  <option value="RUN">RUN</option>
+	  <option value="SWM">SWM</option>
+	  <option value="UNCATEGORIZED" selected>UNCATEGORIZED</option>
+  </select>
+  </p>
+  
+  <p>Duration<br />
+  <input type="number" name="duration" placeholder="min."></p>
+  
+  <p>Distance<br />
+  <input type="number" name="distance" placeholder="mi."></p>
+  
+  <p>Effort<br />
+  <input type="number" name="effort" placeholder="%"></p>
+  
+  <p>Notes<br />
+  <textarea name="notes" rows="6" cols="80" placeholder="notes"></textarea></p>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
