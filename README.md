@@ -56,3 +56,4 @@ else{
 **DELETE -** Delete was created in the **edit_person.php and edit_logbook.php files at line 17**. The purpose of this was to delete any entries that no longer needed to be in the database.
 
 ## Video Demonstration
+[Fit Journal-Jason Sippy & Chris King](https://www.youtube.com/watch?v=mEUtVidPl8o&feature=youtu.be)
